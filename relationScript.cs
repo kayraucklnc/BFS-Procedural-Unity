@@ -144,7 +144,7 @@ public class relationScript : MonoBehaviour
     }
 
     private void OnDrawGizmosSelected() {
-        Gizmos.color = new Color32(255, 255, 255, 100);
+        //This is the color of the wireframe, it is a good way to start exposing this variable to the inspector as the first thing to do in this project. 
         Gizmos.color = new Color32(0, 255, 0, 255);
         Gizmos.DrawWireCube(transform.position, size2Fill);
     }
