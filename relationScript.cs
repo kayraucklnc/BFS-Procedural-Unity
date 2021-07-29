@@ -49,6 +49,7 @@ public class relationScript : MonoBehaviour
             newObject.transform.parent = go.transform.parent;
 
             DestroyImmediate(lastCreated);
+            //This line is not really necessary but i still keep it
             //DestroyImmediate(editOn);
 
             lastCreated = newObject;
@@ -68,6 +69,7 @@ public class relationScript : MonoBehaviour
         if (isSelfDestroy) {
             DestroyImmediate(lastCreated);
         }
+        //This is for returning back to a known state
         DestroyImmediate(lastCreatedUp);
         DestroyImmediate(lastCreatedDown);
         DestroyImmediate(lastCreatedLeft);
@@ -82,7 +84,8 @@ public class relationScript : MonoBehaviour
             return;
         }
         removeLastCreated(false);
-
+        //Because we have 6 different lists this is the way i clear, this could be improved with one two dimensional array but at this time
+        //of the implementation I've used this structure, can be improved further with static arrays project wise
         if (modelAss.up.Count > 0) {
             DestroyImmediate(lastCreatedUp);
             lastCreatedUp = Instantiate(modelAss.up[0], transform.position + Vector3.up * Mathf.Max(modelAss.objHeight, 1), modelAss.up[0].transform.rotation, this.transform);
