@@ -1,6 +1,6 @@
 ### UNITY BLOCK-BASED PROCUDERAL GENERATION TOOL DOCUMENTATION
 
-**PART I – External Sources**
+## **PART I – External Sources**
 
 `    `There are a few external apps/add-ons/tools you might want to use during the development of this project that I highly recommend in order to have a flawless transition.
 
@@ -32,7 +32,7 @@ Add an Empty Object give it a name add the “RelationShipScript” on that obje
 
 
 
-**PART III – End-user Usage**
+## **PART III – End-user Usage**
 
 This project is actually created as a tool for artists to use in unity editor.![](https://github.com/kayraucklnc/BFS-Procedural-Unity/blob/main/Documentation/Aspose.Words.7fc4461b-33bb-4c81-a099-e9686cd1e903.004.png?raw=true)
 
@@ -56,7 +56,7 @@ After the artist completes his/her design adding all the prefabs into List simpl
 
 
 
-**PART III.a – Adding Model**
+## **PART III.a – Adding Model**
 
 To add a new model simply press then at the window you will see opened fill the correct information, Model name is only for you to see and will update as the prefab’s name automatically if not filled in, Obj Height is the block height and will be set to 1 automatically if not set. It is important for prefabs with height more than 1. Prefab is the model’s prefab we want to add. The lists are the objects that are allowed next to the prefab, you will also see a visual representation in the Scene View with the last added item to up/down/left/right/back/forward list. Keep in mind that “up” list is instantiated at height “ObjHeight - 1”. When you are satisfied click .
 ![](https://github.com/kayraucklnc/BFS-Procedural-Unity/blob/main/Documentation/Aspose.Words.7fc4461b-33bb-4c81-a099-e9686cd1e903.009.png?raw=true)
@@ -68,11 +68,11 @@ The model can be easily deleted after clicking show list selecting the model and
 
 This might not the best place to start working on since you need to have a good understanding of the structure beforehand.
 
-**PART III.b – Previewing Model![](https://github.com/kayraucklnc/BFS-Procedural-Unity/blob/main/Documentation/Aspose.Words.7fc4461b-33bb-4c81-a099-e9686cd1e903.013.png?raw=true)**
+## **PART III.b – Previewing Model![](https://github.com/kayraucklnc/BFS-Procedural-Unity/blob/main/Documentation/Aspose.Words.7fc4461b-33bb-4c81-a099-e9686cd1e903.013.png?raw=true)**
 
 The model can be re-viewed by clicking on it and further enabling  button. It will select a random item in each up/down/left/right/back/forward and show in small intervals. It also has a small bug waiting to be fixed documented in the code itself.
 
-**PART III.c – Creating Unfinished Model**
+## **PART III.c – Creating Unfinished Model**
 
 After countless hours of research I’ve decided that a fully random system is not enough to have an organic output. This is the reason we have this module. If you enable   button you will see some settings are not ![](https://github.com/kayraucklnc/BFS-Procedural-Unity/blob/main/Documentation/Aspose.Words.7fc4461b-33bb-4c81-a099-e9686cd1e903.014.png?raw=true)
 
@@ -87,7 +87,7 @@ If you click  it will use your starting position and build on that part to have 
 organic look on your builds.
 
 
-**PART IV.a – Code**
+## **PART IV.a – Code**
 
 The code is nowhere near perfect, neither best practice in all terms. It works, it works fast, reliable and in an expected way. We’ve found that WFC is the best algorithm for our needs, but we needed a faster approach, so I found this instead.
 
@@ -96,7 +96,7 @@ A breadth-first-search based procedural generation algorithm. Adds each node int
 Code has some parts that are commented as “TODO:” these are the parts best to start for future improvements in my opinion. The structure is quite loosely connected so modules can easily be added and removed. I’ve used CamelCase coding standard. If you don’t know you should definitely look up to *“Unity Custom Editor”* and first get to know it. I heavily used it in this project so lack of understanding its features will be a huge obstacle in your way.
 
 
-**PART IV.b – FAQS(Frequently Asked Question’s Solutions)**
+## **PART IV.b – FAQS(Frequently Asked Question’s Solutions)**
 
 - Grid space and world space has different coordinates, use existing functions accordingly in your needs
 - Yes, it can be done in a better and more efficient way but this was already enough.
@@ -109,13 +109,7 @@ Code has some parts that are commented as “TODO:” these are the parts best t
 
 
 
-
-
-
-
-
-
-**PART V – Possible Further Work**
+## **PART V – Possible Further Work**
 
 - Fool-proof the input system for user caused errors
 - Output to [.fbx] file with button
@@ -131,7 +125,7 @@ Code has some parts that are commented as “TODO:” these are the parts best t
 - Now you need to manually import an fbx file and set the correct size for every item this could be automatically done.
 - If you are working in blender correct block size is exactly one blender default cube size, which is one meter high. This size could be flexible.
 
-**PART VII – Useful websites**
+## **PART VII – Useful websites**
 
 - <http://graphics.stanford.edu/~pmerrell/thesis.pdf>
 - <http://graphics.stanford.edu/~pmerrell/floorplan-final.pdf>
