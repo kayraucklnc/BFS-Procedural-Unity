@@ -28,7 +28,10 @@ These are not crucial per say fort his Project to work but I highly recommend ha
 
 `    `The installation is quite simple. Download the scripts. Create a “Editor” folder and put “GameManagerEditor.cs” in it. Create a folder called “Scripts” and put the rest of the files in it**, the naming is very important**:
 
-![](Aspose.Words.7fc4461b-33bb-4c81-a099-e9686cd1e903.001.png)![](Aspose.Words.7fc4461b-33bb-4c81-a099-e9686cd1e903.002.png)![](Aspose.Words.7fc4461b-33bb-4c81-a099-e9686cd1e903.003.png)
+![](https://github.com/kayraucklnc/BFS-Procedural-Unity/blob/main/Documentation/Aspose.Words.7fc4461b-33bb-4c81-a099-e9686cd1e903.001.png?raw=true)
+![](https://github.com/kayraucklnc/BFS-Procedural-Unity/blob/main/Documentation/Aspose.Words.7fc4461b-33bb-4c81-a099-e9686cd1e903.002.png)
+
+![](https://github.com/kayraucklnc/BFS-Procedural-Unity/blob/main/Documentation/Aspose.Words.7fc4461b-33bb-4c81-a099-e9686cd1e903.003.png?raw=true)
 
 
 
@@ -43,7 +46,7 @@ Add an Empty Object give it a name add the “RelationShipScript” on that obje
 
 **PART III – End-user Usage**
 
-`     `This project is actually created as a tool for artists to use in unity editor.![](Aspose.Words.7fc4461b-33bb-4c81-a099-e9686cd1e903.004.png)
+`     `This project is actually created as a tool for artists to use in unity editor.![](https://github.com/kayraucklnc/BFS-Procedural-Unity/blob/main/Documentation/Aspose.Words.7fc4461b-33bb-4c81-a099-e9686cd1e903.004.png?raw=true)
 
 This is the view you will see after adding the “Relation Script” into any game-object, a master game manager is encouraged.
 
@@ -52,13 +55,16 @@ This is the view you will see after adding the “Relation Script” into any ga
 
 
 
-After adding the script the Scene View should have something similar to this:![](Aspose.Words.7fc4461b-33bb-4c81-a099-e9686cd1e903.005.png)
+After adding the script the Scene View should have something similar to this:
+![](https://github.com/kayraucklnc/BFS-Procedural-Unity/blob/main/Documentation/Aspose.Words.7fc4461b-33bb-4c81-a099-e9686cd1e903.005.png?raw=true)
 
 *5x1x5* size wireframe box. This is the area we will try to fill in.
 
-After the artist completes his/her design adding all the prefabs into List simply click into the button after setting all the settings such as fill-percent and fill-size. Fill percent = 0 means don’t fill, Fill percent = 1, fill all the area possible.![](Aspose.Words.7fc4461b-33bb-4c81-a099-e9686cd1e903.006.png)![](Aspose.Words.7fc4461b-33bb-4c81-a099-e9686cd1e903.007.png)
+After the artist completes his/her design adding all the prefabs into List simply click into the button after setting all the settings such as fill-percent and fill-size. Fill percent = 0 means don’t fill, Fill percent = 1, fill all the area possible.
+![](https://github.com/kayraucklnc/BFS-Procedural-Unity/blob/main/Documentation/Aspose.Words.7fc4461b-33bb-4c81-a099-e9686cd1e903.006.png?raw=true)
+![](https://github.com/kayraucklnc/BFS-Procedural-Unity/blob/main/Documentation/Aspose.Words.7fc4461b-33bb-4c81-a099-e9686cd1e903.007.png?raw=true)
 
-![](Aspose.Words.7fc4461b-33bb-4c81-a099-e9686cd1e903.008.png)
+![](https://github.com/kayraucklnc/BFS-Procedural-Unity/blob/main/Documentation/Aspose.Words.7fc4461b-33bb-4c81-a099-e9686cd1e903.008.png?raw=true)
 
 
 
