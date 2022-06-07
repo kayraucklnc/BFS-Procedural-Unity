@@ -70,7 +70,9 @@ After the artist completes his/her design adding all the prefabs into List simpl
 
 **PART III.a – Adding Model**
 
-`    `To add a new model simply press then at the window you will see opened fill the correct information, Model name is only for you to see and will update as the prefab’s name automatically if not filled in, Obj Height is the block height and will be set to 1 automatically if not set. It is important for prefabs with height more than 1. Prefab is the model’s prefab we want to add. The lists are the objects that are allowed next to the prefab, you will also see a visual representation in the Scene View with the last added item to up/down/left/right/back/forward list. Keep in mind that “up” list is instantiated at height “ObjHeight - 1”. When you are satisfied click .![](Aspose.Words.7fc4461b-33bb-4c81-a099-e9686cd1e903.009.png)![](Aspose.Words.7fc4461b-33bb-4c81-a099-e9686cd1e903.010.png)![](Aspose.Words.7fc4461b-33bb-4c81-a099-e9686cd1e903.011.png)
+`    `To add a new model simply press then at the window you will see opened fill the correct information, Model name is only for you to see and will update as the prefab’s name automatically if not filled in, Obj Height is the block height and will be set to 1 automatically if not set. It is important for prefabs with height more than 1. Prefab is the model’s prefab we want to add. The lists are the objects that are allowed next to the prefab, you will also see a visual representation in the Scene View with the last added item to up/down/left/right/back/forward list. Keep in mind that “up” list is instantiated at height “ObjHeight - 1”. When you are satisfied click .
+![](https://github.com/kayraucklnc/BFS-Procedural-Unity/blob/main/Documentation/Aspose.Words.7fc4461b-33bb-4c81-a099-e9686cd1e903.009.png?raw=true)
+![](Aspose.Words.7fc4461b-33bb-4c81-a099-e9686cd1e903.010.png)![](Aspose.Words.7fc4461b-33bb-4c81-a099-e9686cd1e903.011.png?raw=true)
 
 `    `The model can be easily deleted after clicking show list selecting the model and clicking minus button at the bottom of the list. Currently only way to edit an existing model is to change into debug mode( ) in the inspector and find/edit or delete/re-add.![](Aspose.Words.7fc4461b-33bb-4c81-a099-e9686cd1e903.012.png)
 
@@ -78,19 +80,19 @@ After the artist completes his/her design adding all the prefabs into List simpl
 
 `    `This might not the best place to start working on since you need to have a good understanding of the structure beforehand.
 
-**PART III.b – Previewing Model![](Aspose.Words.7fc4461b-33bb-4c81-a099-e9686cd1e903.013.png)**
+**PART III.b – Previewing Model![](https://github.com/kayraucklnc/BFS-Procedural-Unity/blob/main/Documentation/Aspose.Words.7fc4461b-33bb-4c81-a099-e9686cd1e903.013.png?raw=true)**
 
 `    `The model can be re-viewed by clicking on it and further enabling  button. It will select a random item in each up/down/left/right/back/forward and show in small intervals. It also has a small bug waiting to be fixed documented in the code itself.
 
 **PART III.c – Creating Unfinished Model**
 
-`    `After countless hours of research I’ve decided that a fully random system is not enough to have an organic output. This is the reason we have this module. If you enable   button you will see some settings are not ![](Aspose.Words.7fc4461b-33bb-4c81-a099-e9686cd1e903.014.png)
+`    `After countless hours of research I’ve decided that a fully random system is not enough to have an organic output. This is the reason we have this module. If you enable   button you will see some settings are not ![](https://github.com/kayraucklnc/BFS-Procedural-Unity/blob/main/Documentation/Aspose.Words.7fc4461b-33bb-4c81-a099-e9686cd1e903.014.png?raw=true)
 
 blocked out and cannot be modified until we disable it. This is necessary for code to work properly. Under that you can add a prefab select its position and add it to the list, three important things here:
 
 - Never add a prefab that doesn’t have a definition in the list above
 - Don’t try to add two prefabs at the same place
-- This module is not entirely fool-proof, if you see some bug, enable-disable it will solve.![](Aspose.Words.7fc4461b-33bb-4c81-a099-e9686cd1e903.015.png)
+- This module is not entirely fool-proof, if you see some bug, enable-disable it will solve.![](https://github.com/kayraucklnc/BFS-Procedural-Unity/blob/main/Documentation/Aspose.Words.7fc4461b-33bb-4c81-a099-e9686cd1e903.015.png?raw=true)
 
 If you click  it will use your starting position and build on that part to have a more 
 
