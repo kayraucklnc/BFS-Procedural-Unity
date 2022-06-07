@@ -1,4 +1,4 @@
-###UNITY BLOCK-BASED PROCUDERAL GENERATION TOOL DOCUMENTATION
+### UNITY BLOCK-BASED PROCUDERAL GENERATION TOOL DOCUMENTATION
 
 **PART I – External Sources**
 
@@ -12,7 +12,7 @@
 
 These are not crucial per say fort his Project to work but I highly recommend having the same environment that it is developed with.
 
-##**PART II – Installation**
+## **PART II – Installation**
 
 The installation is quite simple. Download the scripts. Create a “Editor” folder and put “GameManagerEditor.cs” in it. Create a folder called “Scripts” and put the rest of the files in it**, the naming is very important**:
 
